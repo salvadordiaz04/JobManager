@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobServer", "JobServer\JobServer.csproj", "{D4EBBC28-6D07-4EE0-9B3C-0643361E7566}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobTesting", "JobTesting\JobTesting.csproj", "{4C05224C-CA4D-41FE-9915-B741FB2A041A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4EBBC28-6D07-4EE0-9B3C-0643361E7566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4EBBC28-6D07-4EE0-9B3C-0643361E7566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4EBBC28-6D07-4EE0-9B3C-0643361E7566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4EBBC28-6D07-4EE0-9B3C-0643361E7566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C05224C-CA4D-41FE-9915-B741FB2A041A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C05224C-CA4D-41FE-9915-B741FB2A041A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C05224C-CA4D-41FE-9915-B741FB2A041A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C05224C-CA4D-41FE-9915-B741FB2A041A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08259518-458E-4E66-9201-C651796EB4C6}
+	EndGlobalSection
+EndGlobal
