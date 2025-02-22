@@ -1,0 +1,19 @@
+# Archivos de Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+
+# Archivos de compilación
+bin/
+obj/
+
+# Archivos de paquetes
+*.nupkg
+packages/
+node_modules/
+
+# Configuraciones de usuario
+appsettings.Development.json
+secrets.json
