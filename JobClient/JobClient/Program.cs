@@ -54,11 +54,12 @@ namespace JobClient
                 Console.WriteLine("1. Start Job");
                 Console.WriteLine("2. View Job Status");
                 Console.WriteLine("3. Cancel Job");
-                Console.WriteLine("4. Exit");
+                Console.WriteLine("4. Clear Screen and Show Menu");
+                Console.WriteLine("5. Exit");
 
                 string? option = Console.ReadLine();
 
-                if (option == "4") break;
+                if (option == "5") break;
 
                 switch (option)
                 {
@@ -77,8 +78,11 @@ namespace JobClient
                             await CancelJob();
                         }
                         break;
+                    case "4":
+                        Console.Clear();
+                        break;
                     default:
-                        Console.WriteLine("Invalid option, please choose an option from 1 to 4.");
+                        Console.WriteLine("Invalid option, please choose an option from 1 to 5.");
                         break;
                 }
             }
